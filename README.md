@@ -1,5 +1,18 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Project Abstract:
+-------------------
+The application is created by using React and Redux. Currently it has below functionalities:-
+  1. Create New User.  
+  2. Login User.
+  3. User can view all available products.
+  4. Add products to cart.
+  5. Remove products from cart.
+  
+ The above functionalities are accomplished by using API calls using "axios".
+ The backend service are written using Springboot, RESTful webservice, mySQL.
+  
+
 ## Available Scripts
 
 In the project directory, you can run:
