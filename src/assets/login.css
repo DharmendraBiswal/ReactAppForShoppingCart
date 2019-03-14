@@ -1,0 +1,58 @@
+.formDataContainer_login {
+  padding: 200px 500px;
+  text-align: left;
+  font-family: Tahoma;  
+  height: 600px;
+  background-color: #005960;  
+  
+}
+.formSubmit_login {
+  display: block;
+  margin: 27px 40px;
+  text-align: center;
+  width: 200px;
+  height: 30px;
+  font-family: Tahoma;
+  background-color: teal;
+  border-radius: 7px
+}
+.formData_login {
+  background-color: lightgrey;
+  width:300px;
+  height: 250px;
+  margin-top: 70px;
+  margin-left: 440px;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius:7px;
+  border-top-right-radius: 7px;
+  border-top-left-radius:7px;
+  opacity: 0.8;
+  
+}
+.formData_login h4 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.formData_login h5 {
+    text-align: center;
+}
+.textField {
+  width: 70%;
+  padding: 10px;
+  margin-left: 25px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+.login_Container{
+  padding-top: 58px;
+    padding-left: 30px;
+}
+
+.login_Container p{
+  color: red;
+  font-weight:bold;
+  text-align: center
+}

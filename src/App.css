@@ -31,3 +31,22 @@
     transform: rotate(360deg);
   }
 }
+
+#root{
+background:teal;
+height:58px
+}
+.wraper{
+  margin: 0 auto;
+  width:1200px;
+  
+}
+.Nav{
+  float: left;
+}
+.nav-right{
+float: right
+}
+.nav-right .logout{
+  margin: 15px 20px;
+}

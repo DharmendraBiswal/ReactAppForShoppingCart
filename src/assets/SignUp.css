@@ -1,0 +1,56 @@
+.formDataContainer {
+  padding: 100px 500px;
+  text-align: left;
+  background:#005960;
+  height: 600px
+  
+}
+.formData {
+  background-color: lightgrey;
+  width:350px;
+  height: 500px;
+  margin-top: 70px;
+  margin-left: 400px;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius:7px;
+  border-top-right-radius: 7px;
+  border-top-left-radius:7px;
+  opacity: 0.8;
+}
+.inputData{
+  width: 300px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.inputData input {
+  width: 80%;
+  height:7px;
+  padding: 10px;
+  margin-left: 25px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.formSubmit {
+  display: block;
+  margin: 27px 70px;
+  text-align: center;
+  width: 200px;
+  height: 30px;
+  font-family: Tahoma;
+  background-color: white;
+  border-radius: 7px;
+  border-color: #008CBA;;
+}
+.formSubmit:hover {
+  background-color: #008CBA;;
+  color: white;
+}
+.formDataContainer h4{
+  text-align: center
+}
+
+.signUp_Container{
+  padding-top: 58px;
+  padding-left: 30px;
+  
+}

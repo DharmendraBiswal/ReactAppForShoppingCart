@@ -1,0 +1,34 @@
+.topNav {   
+  
+  background-color: teal;
+  
+}
+
+.li_link {
+  float: right; 
+  padding: 6px;
+  margin-right: 16px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  font-family: Arial;
+  color:teal;
+  border-radius: 7px; 
+  text-decoration: none;
+  
+}
+.ul_header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: teal;
+  margin: 10px 0;
+}
+
+.slider {
+  height: 300px;
+  width: 900px;
+  padding-top: 60px;
+  padding-left: 240px;
+}

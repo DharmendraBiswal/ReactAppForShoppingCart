@@ -1,26 +1,32 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router,Switch,Route } from  'react-router-dom';
+import HomePage from './components/HomePage';
+import CreateUser from './components/CreateUser';
+import Users from './components/Users';
+import Profile from './components/Profile';
+import Login from './components/Login';
+import MenProducts from './components/MenProducts';
+import WomenProducts from './components/WomenProducts';
+import KidsProducts from './components/KidsProducts';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <Router>
+      <div className="wraper">
+        <Switch>
+            <Route exact path='/' component={HomePage} />
+            <Route exact path='/signUp' component={CreateUser} />
+            <Route exact path='/users' component={Users} />
+            <Route exact path='/profile' component={Profile} />
+            <Route exact path='/login' component={Login} />
+            <Route exact path='/men' component={MenProducts} />
+            <Route exact path='/women' component={WomenProducts} />
+            <Route exact path='/kids' component={KidsProducts} />
+        </Switch>
       </div>
+  </Router>
     );
   }
 }
